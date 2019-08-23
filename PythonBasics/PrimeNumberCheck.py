@@ -35,7 +35,7 @@ class PrimeNumberCheck:
         try:
             num = int(input("Enter a number : "))
             if (num < 2):
-                print ("Please enter number greater than 1 !!\nTry again..\n")
+                print ("Please enter a number greater than 1 !!\nTry again..\n")
                 return self.userinput()
         except ValueError as error:
             print ("Error msg:", error, "\nPlease enter valid number !!\nTry again..\n")
